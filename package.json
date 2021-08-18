@@ -8,6 +8,7 @@
   "scripts": {
     "boot": "lerna init && lerna bootstrap",
     "dev": "echo dev",
-    "version": "lerna version"
+    "v": "lerna version",
+    "pub": "lerna publish"
   }
 }
