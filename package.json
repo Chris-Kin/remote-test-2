@@ -1,7 +1,12 @@
 {
-  "name": "root",
+  "name": "@yysy/lerna",
   "private": true,
   "devDependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "boot": "lerna init && lerna bootstrap",
+    "dev": "echo dev",
+    "version": "lerna version"
   }
 }
